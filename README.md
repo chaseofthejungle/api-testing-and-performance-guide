@@ -2,7 +2,14 @@
 
 **Definition/Overview:** An Application Programming Interface (API) enables communications between multiple apps/networks by utilizing a stack of integrated technologies over sessions or connections. The role of the API can be visualized as being similar to a connector: it 'plugs' a network as a data source/provider to another network that requests data on another 'side' (as a client).
 
-**Who needs it?:** Web and streaming (e.g., videos, music) services are heavily dependent upon API systems to serve their consumers. In many cases, a consumer on the 'front end' (the part of a system that the user directly sees and interacts with) utilizes an interface (such as a web page) to request data from the 'back end' (the data part of the system that the user does not directly interact with, such as SQL and NoSQL databases) and its services. The API performs like a messenger that listens to the user's requests (such as desiring for a movie to appear on their television screen), informs the server network's technology of what it needs to do to satisfy the request, and then serves back the data response that the client requested (in this example, the movie).
+**Who needs API?:** Web and streaming (e.g., videos, music) services are heavily dependent upon API systems to serve their consumers. In many cases, a consumer on the 'front end' (the part of a system that the user directly sees and interacts with) utilizes an interface (such as a web page) to request data from the 'back end' (the data part of the system that the user does not directly interact with, such as SQL and NoSQL databases) and its services. The API performs like a messenger that listens to the user's requests (such as desiring for a movie to appear on their television screen), informs the server network's technology of what it needs to do to satisfy the request, and then serves back the data response that the client requested (in this example, the movie).
+  
+**Why concern ourselves with API Testing?:**
+* API validation needs to be performed before modifications are committed to production environments.
+  + Errors and bottlenecks should be identified and eliminated prior to client usage.
+* The web, and the Internet at large, relies upon millions of APIs.
+  + The average Web user utilizes API systems every single day, whether knowingly or unknowingly.
+  + Users expect systems to work. This is true whether a system is being used for entertainment purposes, such as music streaming, or by essential services like hospitals.
   
 **REST API Overview:** Representational State Transfer (REST) API are common in web environments, including social media sites such as LinkedIn and X. API that are assembled from REST have six essential features: statelessness, cachability, client-server data transfer, consistent interfacing, code provided on demand, and system layering.
 
