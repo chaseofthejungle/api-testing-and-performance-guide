@@ -10,6 +10,12 @@
 * The web, and the Internet at large, relies upon millions of APIs.
   + The average Web user utilizes API systems every single day, whether knowingly or unknowingly.
   + Users expect systems to work. This is true whether a system is being used for entertainment purposes, such as music streaming, or by essential services like hospitals.
+
+**What might API testing cover?:**
+* Key validation, such as minimum and maximum length ranges (this can help prevent session crashes and buffer overflows).
+* Validation of data formats such as JSON schema and XML.
+* Verification of keys, key mechanisms, and proper protocol usage.
+* Assurance that API error codes are appropriately recognized and errors are handled properly and efficiently.
   
 **REST API Overview:** Representational State Transfer (REST) API are common in web environments, including social media sites such as LinkedIn and X. API that are assembled from REST have six essential features: statelessness, cachability, client-server data transfer, consistent interfacing, code provided on demand, and system layering.
 
