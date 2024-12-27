@@ -12,5 +12,7 @@
 * Consistency in interfacing involves both the client and server agreeing to protocols and data formatting that can be readily 'understood' and transferred by both systems, using self-documenting messages in the process of data transfer.
 * Code/logic being available to the server on an on-demand basis assists with the ability to transfer data with time and cost (storage) efficiency.
 * System layering allows for intermediary systems to exist between the client and server without there necessarily being a bottleneck in service.
-* 
-TODO: Add information on how testing works (using Postman software as a tool), HTTP methods, and SOAP API systems.
+
+**SOAP API Overview:** Simple Object Access Protocol (SOAP) API utilize messaging and allow for Operating System compatability and integrations with the web's Hypertext Transfer Protocol (HTTP) and Extensible Markup Language (XML). SOAP is a popular technology for e-mail systems but it does not compare with REST's diverse feature set and, in comparison and on average, ease of use and reliability for both clients and servers.
+  
+TODO: Add information on how testing works (using Postman software as a tool) and HTTP methods.
