@@ -3,5 +3,14 @@
 **Definition/Overview:** An Application Programming Interface (API) enables communications between multiple apps/networks by utilizing a stack of integrated technologies over sessions or connections. The role of the API can be visualized as being similar to a connector: it 'plugs' a network as a data source/provider to another network that requests data on another 'side' (as a client).
 
 **Who needs it?:** Web and streaming (e.g., videos, music) services are heavily dependent upon API systems to serve their consumers. In many cases, a consumer on the 'front end' (the part of a system that the user directly sees and interacts with) utilizes an interface (such as a web page) to request data from the 'back end' (the data part of the system that the user does not directly interact with, such as SQL and NoSQL databases) and its services. The API performs like a messenger that listens to the user's requests (such as desiring for a movie to appear on their television screen), informs the server network's technology of what it needs to do to satisfy the request, and then serves back the data response that the client requested (in this example, the movie).
+  
+**REST API Overview:** Representational State Transfer (REST) API are common in web environments, including social media sites such as LinkedIn and X. API that are assembled from REST have six essential features: statelessness, cachability, client-server data transfer, consistent interfacing, code provided on demand, and system layering.
 
-TODO: Add information on how testing works (using Postman software as a tool), HTTP methods, and SOAP and REST API systems.
+* Statelessness assures that both the server and client networks don't need to concern themselves with the states of requests and responses.
+* Caches allow frequent responses to be stored for quick retrieval, making routine requests quicker to process (optimal time efficiency).
+* The division of networks into client and server constructs allows for issues to be focused on and resolved by the appropriate organization/people.
+* Consistency in interfacing involves both the client and server agreeing to protocols and data formatting that can be readily 'understood' and transferred by both systems, using self-documenting messages in the process of data transfer.
+* Code/logic being available to the server on an on-demand basis assists with the ability to transfer data with time and cost (storage) efficiency.
+* System layering allows for intermediary systems to exist between the client and server without there necessarily being a bottleneck in service.
+* 
+TODO: Add information on how testing works (using Postman software as a tool), HTTP methods, and SOAP API systems.
