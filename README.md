@@ -2,6 +2,10 @@
 
 **Definition/Overview:** An Application Programming Interface (API) enables communications between multiple apps/networks by utilizing a stack of integrated technologies over sessions or connections. The role of the API can be visualized as being similar to a connector: it 'plugs' a network as a data source/provider to another network that requests data on another 'side' (as a client).
 
+<hr />
+
+## Who Uses Dedicated API Systems (and Why)
+  
 **Who needs API?:** Web and streaming (e.g., videos, music) services are heavily dependent upon API systems to serve their consumers. In many cases, a consumer on the 'front end' (the part of a system that the user directly sees and interacts with) utilizes an interface (such as a web page) to request data from the 'back end' (the data part of the system that the user does not directly interact with, such as SQL and NoSQL databases) and its services. The API performs like a messenger that listens to the user's requests (such as desiring for a movie to appear on their television screen), informs the server network's technology of what it needs to do to satisfy the request, and then serves back the data response that the client requested (in this example, the movie).
 
 **API Performance Assurance:** Several common ways to improve API performance (increasing app efficiency and scalability, and promoting optimal user experience) include…
@@ -9,11 +13,14 @@
 * Caching Efficaciously
 * Implementing Throttling and Rate Limiting
 * Keeping Sizes of Payloads Minimal
-* Optimizing API Endpoints  
+* Optimizing API Endpoints
 * Optimizing Database Queries
 * Processing Asynchronously
-
 * Utilizing Load Balancing
+  
+<hr />
+  
+# API Testing
   
 **Why concern ourselves with API Testing?:**
 * API validation needs to be performed before modifications are committed to production environments.
@@ -29,7 +36,11 @@
 * Assurance that API error codes are appropriately recognized and errors are handled properly and efficiently.
   
 **REST API Overview:** Representational State Transfer (REST) API are common in web environments, including social media sites such as LinkedIn and X. API that are assembled from REST have six essential features: statelessness, cachability, client-server data transfer, consistent interfacing, code provided on demand, and system layering.
-
+  
+<hr />
+  
+## REST and SOAP API
+  
 * Statelessness assures that both the server and client networks don't need to concern themselves with the states of requests and responses.
 * Caches allow frequent responses to be stored for quick retrieval, making routine requests quicker to process (optimal time efficiency).
 * The division of networks into client and server constructs allows for issues to be focused on and resolved by the appropriate organization/people.
