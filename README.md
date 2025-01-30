@@ -2,6 +2,12 @@
 
 **Definition/Overview:** An Application Programming Interface (API) enables communications between multiple apps/networks by utilizing a stack of integrated technologies over sessions or connections. The role of the API can be visualized as being similar to a connector: it 'plugs' a network as a data source/provider to another network that requests data on another 'side' (as a client).
 
+#### Table of Contents:
+
+1. Who Uses Dedicated API Systems (and Why)
+2. API Testing
+3. REST and SOAP API
+  
 <hr />
 
 ## 1. Who Uses Dedicated API Systems (and Why)
