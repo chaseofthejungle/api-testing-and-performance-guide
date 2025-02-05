@@ -4,13 +4,13 @@
 
 #### Table of Contents:
 
-1. Who Uses Dedicated API Systems (and Why)
-2. API Testing
-3. REST and SOAP API
+1. [Who Uses Dedicated API Systems (and Why)](#dedicated-api)
+2. [API Testing](#api-testing)
+3. [REST and SOAP API](#rest-and-soap)
   
 <hr />
 
-## 1. Who Uses Dedicated API Systems (and Why)
+## 1. <a name="dedicated-api">Who Uses Dedicated API Systems (and Why)</a>
   
 **Who needs API?:** Web and streaming (e.g., videos, music) services are heavily dependent upon API systems to serve their consumers. In many cases, a consumer on the 'front end' (the part of a system that the user directly sees and interacts with) utilizes an interface (such as a web page) to request data from the 'back end' (the data part of the system that the user does not directly interact with, such as SQL and NoSQL databases) and its services. The API performs like a messenger that listens to the user's requests (such as desiring for a movie to appear on their television screen), informs the server network's technology of what it needs to do to satisfy the request, and then serves back the data response that the client requested (in this example, the movie).
 
@@ -26,7 +26,7 @@
   
 <hr />
   
-## 2. API Testing
+## 2. <a name="api-testing">API Testing</a>
   
 **Why concern ourselves with API Testing?:**
 * API validation needs to be performed before modifications are committed to production environments.
@@ -45,7 +45,7 @@
   
 <hr />
   
-## 3. REST and SOAP API
+## 3. <a name="rest-and-soap">REST and SOAP API</a>
   
 * Statelessness assures that both the server and client networks don't need to concern themselves with the states of requests and responses.
 * Caches allow frequent responses to be stored for quick retrieval, making routine requests quicker to process (optimal time efficiency).
