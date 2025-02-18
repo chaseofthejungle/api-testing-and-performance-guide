@@ -14,15 +14,28 @@
   
 **Who needs API?:** Web and streaming (e.g., videos, music) services are heavily dependent upon API systems to serve their consumers. In many cases, a consumer on the 'front end' (the part of a system that the user directly sees and interacts with) utilizes an interface (such as a web page) to request data from the 'back end' (the data part of the system that the user does not directly interact with, such as SQL and NoSQL databases) and its services. The API performs like a messenger that listens to the user's requests (such as desiring for a movie to appear on their television screen), informs the server network's technology of what it needs to do to satisfy the request, and then serves back the data response that the client requested (in this example, the movie).
 
-**API Performance Assurance:** Several common ways to improve API performance (increasing app efficiency and scalability, and promoting optimal user experience) include…
-
+**API Performance Assurance:** There are several common ways to improve API performance (increasing app efficiency/scalability and promoting optimal user experience).
+  
+* Applying Throttling and Rate Limiting
+  + Throttling helps assure scalability when traffic increases.
+  + Rate limiting manages the quantity of client requests that can be handled within a specified time window.
+    - This prevents hacking attempts and promotes fair API usage.
 * Caching Efficaciously
-* Implementing Throttling and Rate Limiting
+  + Common/popular requests can be resolved without impacting the database directly.
+    - This can significantly improve request response times and API workload, as well.
+  + Cache expiration and invalidation prevent unnecessary data persistance, keeping cache data appropriately limited and organized.
+  + *Caching Examples:* [Memcached](https://memcached.org/), [Redis](https://redis.io/)
 * Keeping Sizes of Payloads Minimal
+  + *Example Solutions:* JSON compression, large data pagination, efficient data format choices (e.g., MessagePack, Protocol Buffers), eliminating unneeded fields from API responses.
+* Move Resource-Extensive Processes to the Background
+  + Promotes quick API responsiveness and asynchronous processing, while handling the more burdensome operations individually.
+    - Can be done via message queues, such as Apache Kafka and RabbitMQ.
 * Optimizing API Endpoints
-* Optimizing Database Queries
-* Processing Asynchronously
-* Utilizing Load Balancing
+  + *Example Solutions:* Follow RESTful standards, avoid establishing multiple enpoints by combining related operations and/or utilizing query parameters for filtered results.
+* Optimizing Database Queries to Reduce Bottlenecks
+  + *Example Solutions:* Indexing, JOIN operations/statements, not using 'SELECT *', database normalization/denormalization (based on need), query profiling/identifying.
+* Utilizing Load Balancers
+  + This distributes ingress API requests (and traffic spikes) across servers in a manner that prevents bottlenecking, provides fault tolerance, and mitigates or eliminates redundancy.
   
 <hr />
   
