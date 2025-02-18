@@ -7,6 +7,7 @@
 1. [Who Uses Dedicated API Systems (and Why)](#dedicated-api)
 2. [API Testing](#api-testing)
 3. [REST and SOAP API](#rest-and-soap)
+4. [Hypertext Transfer Protocol (HTTP)](#http)
   
 <hr />
 
@@ -68,7 +69,11 @@
 * System layering allows for intermediary systems to exist between the client and server without there necessarily being a bottleneck in service.
 
 **SOAP API Overview:** Simple Object Access Protocol (SOAP) API utilize messaging and allow for Operating System compatability and integrations with the web's Hypertext Transfer Protocol (HTTP) and Extensible Markup Language (XML). SOAP is a popular technology for e-mail systems but it does not compare with REST's diverse feature set and, in comparison and on average, ease of use and reliability for both clients and servers.
-
-**The Role of HTTP:** HTTP functions within the appication layer of the 7-layer OSI model that maps the sending and receiving of data over networks. More specifically, HTTP is directly applicable to the 'IP' protocols contained within the suite of 'TCP/IP' protocols that govern Internet connections. HTTP satisfies requests that are sent from client computers, or hosts, which receive responses back from the relevant servers that handle the requests. Common examples of HTTP-handled data include HTML web pages and files that are downloaded from the Internet. Since HTTP is a stateless protocol, current requests are 'unaware' of previous requests.
-
+  
+<hr />
+  
+## 4. <a name="http">Hypertext Transfer Protocol (HTTP)</a>
+  
+**The Data Servicing Role of HTTP:** HTTP functions within the appication layer of the 7-layer OSI model that maps the sending and receiving of data over networks. More specifically, HTTP is directly applicable to the 'IP' protocols contained within the suite of 'TCP/IP' protocols that govern Internet connections. HTTP satisfies requests that are sent from client computers, or hosts, which receive responses back from the relevant servers that handle the requests. Common examples of HTTP-handled data include HTML web pages and files that are downloaded from the Internet. Since HTTP is a stateless protocol, current requests are 'unaware' of previous requests.
+  
 TODO: Add information on how testing works (using Postman software as a tool) and HTTP methods.
