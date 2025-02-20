@@ -17,25 +17,25 @@
 
 **API Performance Assurance:** There are several common ways to improve API performance (increasing app efficiency/scalability and promoting optimal user experience).
   
-* Applying Throttling and Rate Limiting
+* **Applying Throttling and Rate Limiting**
   + Throttling helps assure scalability when traffic increases.
   + Rate limiting manages the quantity of client requests that can be handled within a specified time window.
     - This prevents hacking attempts and promotes fair API usage.
-* Caching Efficaciously
+* **Caching Efficaciously**
   + Common/popular requests can be resolved without impacting the database directly.
     - This can significantly improve request response times and API workload, as well.
   + Cache expiration and invalidation prevent unnecessary data persistance, keeping cache data appropriately limited and organized.
   + *Caching Examples:* [Memcached](https://memcached.org/), [Redis](https://redis.io/)
-* Keeping Sizes of Payloads Minimal
+* **Keeping Sizes of Payloads Minimal**
   + *Example Solutions:* JSON compression, large data pagination, efficient data format choices (e.g., MessagePack, Protocol Buffers), eliminating unneeded fields from API responses.
-* Move Resource-Extensive Processes to the Background
+* **Move Resource-Extensive Processes to the Background**
   + Promotes quick API responsiveness and asynchronous processing, while handling the more burdensome operations individually.
     - Can be done via message queues, such as Apache Kafka and RabbitMQ.
-* Optimizing API Endpoints
+* **Optimizing API Endpoints**
   + *Example Solutions:* Follow RESTful standards, avoid establishing multiple enpoints by combining related operations and/or utilizing query parameters for filtered results.
-* Optimizing Database Queries to Reduce Bottlenecks
+* **Optimizing Database Queries to Reduce Bottlenecks**
   + *Example Solutions:* Indexing, JOIN operations/statements, not using 'SELECT *', database normalization/denormalization (based on need), query profiling/identifying.
-* Utilizing Load Balancers
+* **Utilizing Load Balancers**
   + This distributes ingress API requests (and traffic spikes) across servers in a manner that prevents bottlenecking, provides fault tolerance, and mitigates or eliminates redundancy.
   
 <hr />
@@ -43,31 +43,33 @@
 ## 2. <a name="api-testing">API Testing</a>
   
 **Why concern ourselves with API Testing?:**
-* API validation needs to be performed before modifications are committed to production environments.
+* API validation needs to be performed *before* modifications are committed to production environments.
   + Errors and bottlenecks should be identified and eliminated prior to client usage.
-* The web, and the Internet at large, relies upon millions of APIs.
+* The web, and the Internet at large, relies upon *millions* of APIs.
   + The average Web user utilizes API systems every single day, whether knowingly or unknowingly.
-  + Users expect systems to work. This is true whether a system is being used for entertainment purposes, such as music streaming, or by essential services like hospitals.
+  + Users expect systems to work.
+    - This is true whether a system is being used for entertainment purposes, such as music streaming, or by essential services like hospitals.
 
 **What might API testing cover?:**
-* Key validation, such as minimum and maximum length ranges (this can help prevent session crashes and buffer overflows).
-* Validation of data formats such as JSON schema and XML.
-* Verification of keys, key mechanisms, and proper protocol usage.
-* Assurance that API error codes are appropriately recognized and errors are handled properly and efficiently.
-  
-**REST API Overview:** Representational State Transfer (REST) API are common in web environments, including social media sites such as LinkedIn and X. API that are assembled from REST have six essential features: statelessness, cachability, client-server data transfer, consistent interfacing, code provided on demand, and system layering.
-  
+* **Key validation**, such as minimum and maximum length ranges (this can help prevent session crashes and buffer overflows).
+* **Validation of data formats** such as JSON schema and XML.
+* **Verification** of keys, key mechanisms, and proper protocol usage.
+* Assurance that API error codes are appropriately recognized and **errors are handled properly and efficiently**.
+    
 <hr />
   
 ## 3. <a name="rest-and-soap">REST and SOAP API</a>
   
-* Statelessness assures that both the server and client networks don't need to concern themselves with the states of requests and responses.
-* Caches allow frequent responses to be stored for quick retrieval, making routine requests quicker to process (optimal time efficiency).
-* The division of networks into client and server constructs allows for issues to be focused on and resolved by the appropriate organization/people.
-* Consistency in interfacing involves both the client and server agreeing to protocols and data formatting that can be readily 'understood' and transferred by both systems, using self-documenting messages in the process of data transfer.
-* Code/logic being available to the server on an on-demand basis assists with the ability to transfer data with time and cost (storage) efficiency.
-* System layering allows for intermediary systems to exist between the client and server without there necessarily being a bottleneck in service.
-
+**REST API Overview:** Representational State Transfer (REST) API are common in web environments, including social media sites such as LinkedIn and X. API that are assembled from REST have six essential features: statelessness, cachability, client-server data transfer, consistent interfacing, code provided on demand, and system layering.
+  
+* **Statelessness** assures that server and client networks don't need to concern themselves with the states of requests and responses.
+* **Caches** allow frequent responses to be stored for quick retrieval, making routine requests quicker to process (for optimal time efficiency).
+* The division of networks into **client and server constructs** allows for issues to be focused on and resolved by the appropriate organization/people.
+* **Consistency in interfacing** involves both the client and server agreeing to protocols and data formats that are readily 'understood' and transferred by both systems.
+  + *Self-documenting messages* are utilized during data transfer.
+* **On-demand code/logic availability** for the server assists with data transfer (for optimal time and cost/storage efficiency).
+* **System layering** allows for intermediary systems to exist between clients and servers while reducing/eliminating service bottlenecks.
+  
 **SOAP API Overview:** Simple Object Access Protocol (SOAP) API utilize messaging and allow for Operating System compatability and integrations with the web's Hypertext Transfer Protocol (HTTP) and Extensible Markup Language (XML). SOAP is a popular technology for e-mail systems but it does not compare with REST's diverse feature set and, in comparison and on average, ease of use and reliability for both clients and servers.
   
 <hr />
