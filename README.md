@@ -8,6 +8,7 @@
 2. [API Testing](#api-testing)
 3. [REST and SOAP API](#rest-and-soap)
 4. [Hypertext Transfer Protocol (HTTP)](#http)
+5. [Supplemental Resource](#supplemental)
   
 <hr />
 
@@ -77,5 +78,13 @@
 ## 4. <a name="http">Hypertext Transfer Protocol (HTTP)</a>
   
 **The Data Servicing Role of HTTP:** HTTP functions within the appication layer of the 7-layer OSI model that maps the sending and receiving of data over networks. More specifically, HTTP is directly applicable to the 'IP' protocols contained within the suite of 'TCP/IP' protocols that govern Internet connections. HTTP satisfies requests that are sent from client computers, or hosts, which receive responses back from the relevant servers that handle the requests. Common examples of HTTP-handled data include HTML web pages and files that are downloaded from the Internet. Since HTTP is a stateless protocol, current requests are 'unaware' of previous requests.
+  
+<hr />
+  
+## 5. <a name="supplemental">Supplemental Resource</a>
+  
+* [Intro to Selenium Guide](https://github.com/chaseofthejungle/intro-to-selenium)
+  
+<hr />
   
 TODO: Add information on how testing works (using Postman software as a tool) and HTTP methods.
