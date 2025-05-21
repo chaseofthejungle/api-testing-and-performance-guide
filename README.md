@@ -8,7 +8,7 @@
 2. [API Testing](#api-testing)
 3. [REST and SOAP API](#rest-and-soap)
 4. [Hypertext Transfer Protocol (HTTP)](#http)
-5. [Supplemental Resource](#supplemental)
+5. [Supplemental Resources](#supplemental)
   
 <hr />
 
@@ -81,9 +81,10 @@
   
 <hr />
   
-## 5. <a name="supplemental">Supplemental Resource</a>
+## 5. <a name="supplemental">Supplemental Resources</a>
   
-* [Intro to Selenium Guide](https://github.com/chaseofthejungle/intro-to-selenium)
+* *[Amazon API Gateway](https://aws.amazon.com/api-gateway/)*
+* *[Azure API Gateway](https://azure.microsoft.com/en-us/products/api-management)*
   
 <hr />
   
