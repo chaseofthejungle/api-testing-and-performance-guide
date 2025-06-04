@@ -84,7 +84,8 @@
 ## 5. <a name="supplemental">Supplemental Resources</a>
   
 * *[Amazon API Gateway](https://aws.amazon.com/api-gateway/)*
-* *[Azure API Gateway](https://azure.microsoft.com/en-us/products/api-management)*
+* *[Azure API Gateway](https://azure.microsoft.com/en-us/products/api-management)*  
+* *[Google Cloud API Gateway](https://cloud.google.com/api-gateway/docs)*
   
 <hr />
   
