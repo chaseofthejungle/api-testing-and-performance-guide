@@ -8,6 +8,7 @@
 2. [API Testing](#api-testing)
 3. [REST and SOAP API](#rest-and-soap)
 4. [Hypertext Transfer Protocol (HTTP)](#http)
+5. [HTTP Methods](#methods)
 5. [Supplemental Resources](#supplemental)
   
 <hr />
@@ -57,6 +58,8 @@
 * **Verification** of keys, key mechanisms, and proper protocol usage.
 * Assurance that API error codes are appropriately recognized and **errors are handled properly and efficiently**.
     
+**(TODO: Provide example of API Testing using Postman.)**
+
 <hr />
   
 ## 3. <a name="rest-and-soap">REST and SOAP API</a>
@@ -80,13 +83,15 @@
 **The Data Servicing Role of HTTP:** HTTP functions within the appication layer of the 7-layer OSI model that maps the sending and receiving of data over networks. More specifically, HTTP is directly applicable to the 'IP' protocols contained within the suite of 'TCP/IP' protocols that govern Internet connections. HTTP satisfies requests that are sent from client computers, or hosts, which receive responses back from the relevant servers that handle the requests. Common examples of HTTP-handled data include HTML web pages and files that are downloaded from the Internet. Since HTTP is a stateless protocol, current requests are 'unaware' of previous requests.
   
 <hr />
-  
-## 5. <a name="supplemental">Supplemental Resources</a>
+
+## 5. <a name="methods">HTTP Methods</a>
+
+(TODO)
+
+<hr />
+
+## 6. <a name="supplemental">Supplemental Resources</a>
   
 * *[Amazon API Gateway](https://aws.amazon.com/api-gateway/)*
 * *[Azure API Gateway](https://azure.microsoft.com/en-us/products/api-management)*  
 * *[Google Cloud API Gateway](https://cloud.google.com/api-gateway/docs)*
-  
-<hr />
-  
-TODO: Add information on how testing works (using Postman software as a tool) and HTTP methods.
