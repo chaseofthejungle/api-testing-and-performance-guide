@@ -9,7 +9,8 @@
 3. [REST and SOAP API](#rest-and-soap)
 4. [Hypertext Transfer Protocol (HTTP)](#http)
 5. [HTTP Methods](#methods)
-5. [Supplemental Resources](#supplemental)
+6. [API vs. SDK](#apisdk)
+7. [Supplemental Resources](#supplemental)
   
 <hr />
 
@@ -90,7 +91,13 @@
 
 <hr />
 
-## 6. <a name="supplemental">Supplemental Resources</a>
+## 6. <a name="apisdk">API vs. SDK</a>
+  
+(TODO)
+  
+<hr />
+
+## 7. <a name="supplemental">Supplemental Resources</a>
   
 * *[Amazon API Gateway](https://aws.amazon.com/api-gateway/)*
 * *[Azure API Gateway](https://azure.microsoft.com/en-us/products/api-management)*  
