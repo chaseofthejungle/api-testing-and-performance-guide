@@ -93,7 +93,15 @@
 
 ## 6. <a name="apisdk">API vs. SDK</a>
   
-(TODO)
+While APIs and Software Developer Kits (SDKs) are both valuable tools for software developers, it is important that the terms not be used interchangeably.
+
+| &nbsp; | API | SDK |
+| :-----: | :-----: | :-----: |
+| **Primary Purpose** | Defines/Enables Software Communications for Data Exchange | Provides Tools for Building Software from Scratch |
+| **Paradigm** | Sends/Receives Data through Request/Response Calls | Complete and Installed Package/Suite for Writing/Testing/Running Apps |
+| **Accessibility** | Provides Users Access to Specified Functionalities | Can Integrate with APIs for Data Access Purposes |
+| **Focus** | User Interaction/Data Communications | Creating/Developing Apps |
+| **Portability** | Compatible Across Platforms | Often Platform-Dependent |
   
 <hr />
 
